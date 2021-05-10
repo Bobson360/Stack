@@ -85,23 +85,12 @@ public class Stack {
 			System.out.print(this.items[i]);
 		}
 	}
+	
+	public Object get( int i ) {
+		return this.items[i];
+	}
 
-//	public static void main(String[] args) throws Exception {
-//		Stack stk = new Stack(6);
-//		System.out.println(stk.length());
-//		System.out.println(stk.push('R'));
-//		System.out.println(stk.push('O'));
-//		System.out.println(stk.push('B'));
-//		System.out.println(stk.push('S'));
-//		System.out.println(stk.push('O'));
-//		System.out.println(stk.push('N'));
-//		System.out.println(stk.length());
-//		stk.showOrderByDescWithIndex();
-//		stk.showOrderByDesc();
-//		stk.showOrderByAsc();
-//
-//	}
 	public Object[] getItems() {
-		return items;
+		return this.items;
 	}
 }
